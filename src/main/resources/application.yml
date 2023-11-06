@@ -1,0 +1,10 @@
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: products
+      contact-points: '127.0.0.1'
+      port: 9042
+      username: 'cassandra'
+      password: 'cassandra'
+      schema-action: CREATE_IF_NOT_EXISTS

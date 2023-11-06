@@ -1,0 +1,1 @@
+CREATE TABLE "products"."product" ("id" UUID,"item_name" VARCHAR,"available_quantity" INT,"product_category" VARCHAR,"price_per_unit" DECIMAL, PRIMARY KEY (id));
