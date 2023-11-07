@@ -11,6 +11,5 @@ import java.util.List;
 @Builder
 public class ProductResponse implements Serializable {
 
-    // TODO :
     private List<ProductEntity> orderEntities;
 }
